@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using LabProject.Configs.HcFactory;
 using LabProject.Hashing;
 using Newtonsoft.Json;
@@ -9,10 +10,17 @@ namespace LabProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-//            var cm = HcFactory.BuildHardcodedModel();
-//            Console.WriteLine(JsonConvert.SerializeObject(cm));
-            Console.Write(HashHelper.ComputeHash("tdr"));
+//            WriteHcConfig();
+        }
+
+        static void WriteHcConfig()
+        {
+            var cm = HcFactory.BuildHardcodedModel();
+            HcFactory.ComputeOutputHashes(cm);
+            using (var sw = new StreamWriter(new FileStream("config.json", FileMode.OpenOrCreate)))
+            {
+                sw.WriteLine(JsonConvert.SerializeObject(cm));
+            }
         }
     }
 }

@@ -1,8 +1,11 @@
 using System.Collections.Generic;
+using System.Data.SqlTypes;
+using System.IO;
+using LabProject.Hashing;
 
 namespace LabProject.Configs.HcFactory
 {
-    public class HcFactory
+    public static class HcFactory
     {
         public static ConfigModel BuildHardcodedModel()
         {
@@ -10,36 +13,48 @@ namespace LabProject.Configs.HcFactory
             var pm1 = new ProgramModel
             {
                 ExecutablePath = @"C:\Program Files\dotnet\dotnet.exe",
-                Arguments = "run",
-                WorkingDirectory = @"D:\Projects\UPT\master\tcs\lab\TestApps\SumApp",
-                Tests = new List<TestModel>
-                {
-                    new TestModel
-                    {
-                        Input = "23 23 23 24324 234 234 2342 3423 423 32 42343333 32234 234",
-                        ExpectedOutput = "42406882"
-                    }
-                }
+                Arguments = @"D:\Projects\UPT\master\tcs\lab\TestApps\build\SumApp.dll",
+                WorkingDirectory = @"D:\Projects\UPT\master\tcs\lab\TestApps\tests",
+                Tests = new List<TestModel>()
             };
+            for (var i = 1; i <= 25; i++)
+            {
+                var numberStr = string.Format(i.ToString("D3"), i);
+                pm1.Tests.Add(new TestModel("input" + numberStr + ".in", "sum" + numberStr + ".out"));
+            }
+
             cm.Programs.Add(pm1);
 
             var pm2 = new ProgramModel
             {
                 ExecutablePath = @"C:\Program Files\dotnet\dotnet.exe",
-                Arguments = "run",
-                WorkingDirectory = @"D:\Projects\UPT\master\tcs\lab\TestApps\SortApp",
-                Tests = new List<TestModel>
-                {
-                    new TestModel
-                    {
-                        Input = "23 69 23 24324 234 234 2342 3423 423 32 42343333 32234 234",
-                        ExpectedOutput = "23 23 32 69 234 234 234 423 2342 3423 24324 32234 42343333"
-                    }
-                }
+                Arguments = @"D:\Projects\UPT\master\tcs\lab\TestApps\build\SortApp.dll",
+                WorkingDirectory = @"D:\Projects\UPT\master\tcs\lab\TestApps\tests",
+                Tests = new List<TestModel>()
             };
+            for (var i = 1; i <= 25; i++)
+            {
+                var numberStr = string.Format(i.ToString("D3"), i);
+                pm2.Tests.Add(new TestModel("input" + numberStr + ".in", "sort" + numberStr + ".out"));
+            }
+
             cm.Programs.Add(pm2);
 
             return cm;
+        }
+
+        public static void ComputeOutputHashes(ConfigModel configModel)
+        {
+            foreach (var program in configModel.Programs)
+            {
+                foreach (var test in program.Tests)
+                {
+                    var outputFile = Path.Combine(program.WorkingDirectory, test.ExpectedOutputFile);
+                    var content = new StreamReader(new FileStream(outputFile, FileMode.Open)).ReadToEnd();
+                    var hash = HashHelper.ComputeHash(content);
+                    test.ExpectedOutputSignature = hash;
+                }
+            }
         }
     }
 }

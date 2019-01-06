@@ -2,15 +2,267 @@
   "Programs": [
     {
       "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
-      "Arguments": "run",
-      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\SumApp",
-      "Tests": null
+      "Arguments": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\build\\SumApp.dll",
+      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\tests",
+      "Tests": [
+        {
+          "InputFile": "input001.in",
+          "ExpectedOutputFile": "sum001.out",
+          "ExpectedOutputSignature": "e6b8438860cb6d8b42d85352ff552753090f4493702fe7ea9fb924bc348cb0a5"
+        },
+        {
+          "InputFile": "input002.in",
+          "ExpectedOutputFile": "sum002.out",
+          "ExpectedOutputSignature": "8c1d3453298d6daeeddea682cd78fe5265f8cb47d440d4c7cf3257588567de0f"
+        },
+        {
+          "InputFile": "input003.in",
+          "ExpectedOutputFile": "sum003.out",
+          "ExpectedOutputSignature": "af65f79ab51e977bcb8245bf95551bebd4b43a2680f2e091bdcc8b7b5bd5f617"
+        },
+        {
+          "InputFile": "input004.in",
+          "ExpectedOutputFile": "sum004.out",
+          "ExpectedOutputSignature": "38434a53130ee265fa117dd4c4065409b77fc3d1c6e7c68d9e321d47b22528aa"
+        },
+        {
+          "InputFile": "input005.in",
+          "ExpectedOutputFile": "sum005.out",
+          "ExpectedOutputSignature": "91242289722918f89edb23a64578dd2a759ecb9dac40c449bca1f2067eaba20f"
+        },
+        {
+          "InputFile": "input006.in",
+          "ExpectedOutputFile": "sum006.out",
+          "ExpectedOutputSignature": "2f89cd880d45912fe1c009ca568d5aadecb0450308ae99f7e48678cff0d01c88"
+        },
+        {
+          "InputFile": "input007.in",
+          "ExpectedOutputFile": "sum007.out",
+          "ExpectedOutputSignature": "ad56d8b5b61ebfa1437b94ad4614bbf92e3197f4f0b8725e54c21c161761bb61"
+        },
+        {
+          "InputFile": "input008.in",
+          "ExpectedOutputFile": "sum008.out",
+          "ExpectedOutputSignature": "0d628b2f40ba9e552c0ed59fb7ae18599165f744f56543746caa6623c981511d"
+        },
+        {
+          "InputFile": "input009.in",
+          "ExpectedOutputFile": "sum009.out",
+          "ExpectedOutputSignature": "abdda8f14088272744300c3e83a2b7bc2cc3ee401ec5a40afdb4411099ea25cc"
+        },
+        {
+          "InputFile": "input010.in",
+          "ExpectedOutputFile": "sum010.out",
+          "ExpectedOutputSignature": "0aa77416b8214afa6e94b52d5cad218b0e7c9ae23c80b1701b776c8bb0927992"
+        },
+        {
+          "InputFile": "input011.in",
+          "ExpectedOutputFile": "sum011.out",
+          "ExpectedOutputSignature": "9c2d1329fffeea6b81503c61d3b8b5eea2d0dd33fa477f840b7f301804ab1e14"
+        },
+        {
+          "InputFile": "input012.in",
+          "ExpectedOutputFile": "sum012.out",
+          "ExpectedOutputSignature": "02e566f8edd2b08aed6394dad29b802eacd495a639cda4c0b0e82bf356ba53c3"
+        },
+        {
+          "InputFile": "input013.in",
+          "ExpectedOutputFile": "sum013.out",
+          "ExpectedOutputSignature": "19faa56a59ce12c033a5eef9508c40f858dd3c71055aaa47a501d1c9d4ecfe62"
+        },
+        {
+          "InputFile": "input014.in",
+          "ExpectedOutputFile": "sum014.out",
+          "ExpectedOutputSignature": "888411dc4af9f857606078882884b65287653730f0f7956f3ab5691ee2c9fe09"
+        },
+        {
+          "InputFile": "input015.in",
+          "ExpectedOutputFile": "sum015.out",
+          "ExpectedOutputSignature": "9a238ed39ce5016e36eb7b487860c257986715cd2278eac5ee0d4b92538b380c"
+        },
+        {
+          "InputFile": "input016.in",
+          "ExpectedOutputFile": "sum016.out",
+          "ExpectedOutputSignature": "0e5e5d0cbdd688c17826147d59bd852a74fd39a9f280adb806c10e32ed2db60b"
+        },
+        {
+          "InputFile": "input017.in",
+          "ExpectedOutputFile": "sum017.out",
+          "ExpectedOutputSignature": "82c49e179ee9c44ecd056be5ca505709c1af151fb1316221d4c91a0e81649484"
+        },
+        {
+          "InputFile": "input018.in",
+          "ExpectedOutputFile": "sum018.out",
+          "ExpectedOutputSignature": "ca5b4187dd8f99d5b58c592484adffa4cf0b1952e28c95bf2d1d927a2cb9e47b"
+        },
+        {
+          "InputFile": "input019.in",
+          "ExpectedOutputFile": "sum019.out",
+          "ExpectedOutputSignature": "47c4250e8206b8d8443c6111ad4134dbc28f709d5715b95bd070451f30bc5983"
+        },
+        {
+          "InputFile": "input020.in",
+          "ExpectedOutputFile": "sum020.out",
+          "ExpectedOutputSignature": "5b8c7a652aa18446433fec8031af8cc256c9f23ddd03b4eae951965b4593cddb"
+        },
+        {
+          "InputFile": "input021.in",
+          "ExpectedOutputFile": "sum021.out",
+          "ExpectedOutputSignature": "a788456f0dc0abba39726679ac8ccad9751fe5d267bbdf1282f878d5dd5c09e8"
+        },
+        {
+          "InputFile": "input022.in",
+          "ExpectedOutputFile": "sum022.out",
+          "ExpectedOutputSignature": "04b3478542e96ba1894d1759743e5c42f29e078c55ea542ba94148621229346e"
+        },
+        {
+          "InputFile": "input023.in",
+          "ExpectedOutputFile": "sum023.out",
+          "ExpectedOutputSignature": "0c8813f0b592fecfbbe4ee14e9275232d067dfc01389693c26c8d76ba440d790"
+        },
+        {
+          "InputFile": "input024.in",
+          "ExpectedOutputFile": "sum024.out",
+          "ExpectedOutputSignature": "5cb86872c07c5ec3b3c3ddd7413f74c2f9376c8008c8903eeeb440e23183253a"
+        },
+        {
+          "InputFile": "input025.in",
+          "ExpectedOutputFile": "sum025.out",
+          "ExpectedOutputSignature": "433f95e1af890d43cb813135ffcc517e08e35c9d5727136895997386936c63be"
+        }
+      ]
     },
     {
       "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
-      "Arguments": "run",
-      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\SortApp",
-      "Tests": null
+      "Arguments": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\build\\SortApp.dll",
+      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\tests",
+      "Tests": [
+        {
+          "InputFile": "input001.in",
+          "ExpectedOutputFile": "sort001.out",
+          "ExpectedOutputSignature": "957893148a6a88c4ba2baa398a2a0d82110d17f06e352122f64c2b57d45ead19"
+        },
+        {
+          "InputFile": "input002.in",
+          "ExpectedOutputFile": "sort002.out",
+          "ExpectedOutputSignature": "000e13e5cb8b73627fb1b7a3892abf8e98ee7b79a292891785e4c38e439f0d9b"
+        },
+        {
+          "InputFile": "input003.in",
+          "ExpectedOutputFile": "sort003.out",
+          "ExpectedOutputSignature": "7e0ddd173bed1489be3b10840cdbedcdcafb05e16a9347c902521493d58a956d"
+        },
+        {
+          "InputFile": "input004.in",
+          "ExpectedOutputFile": "sort004.out",
+          "ExpectedOutputSignature": "e8b088e25c5217006b0202883a1f41b585bcf7564137b253a36d62884ef5b605"
+        },
+        {
+          "InputFile": "input005.in",
+          "ExpectedOutputFile": "sort005.out",
+          "ExpectedOutputSignature": "4e79209be25b5e2eca754287d4a53ec7cb29ba469d2e3083fe47bd4d533eaa3d"
+        },
+        {
+          "InputFile": "input006.in",
+          "ExpectedOutputFile": "sort006.out",
+          "ExpectedOutputSignature": "2849e7b85c6078e5db801bd63ca448f57ac0d6a7801032e820a7b3c7621c4c71"
+        },
+        {
+          "InputFile": "input007.in",
+          "ExpectedOutputFile": "sort007.out",
+          "ExpectedOutputSignature": "f2ba1e802cd27d4ae6b2068d1d24691f55af674263c9ce7b583ae55ef6a440a4"
+        },
+        {
+          "InputFile": "input008.in",
+          "ExpectedOutputFile": "sort008.out",
+          "ExpectedOutputSignature": "c2b1166abf6f22216de17dcfb1ad78432300bff8f8590d8e73f97cb897ffb10a"
+        },
+        {
+          "InputFile": "input009.in",
+          "ExpectedOutputFile": "sort009.out",
+          "ExpectedOutputSignature": "b6a532c104ab97568c0984e6898e4508e89c33616511340ea64a5743cfad443d"
+        },
+        {
+          "InputFile": "input010.in",
+          "ExpectedOutputFile": "sort010.out",
+          "ExpectedOutputSignature": "58c3cb809bc497ef4feddb5499693444c4e9c454e22d990eb7ed3832e5e74373"
+        },
+        {
+          "InputFile": "input011.in",
+          "ExpectedOutputFile": "sort011.out",
+          "ExpectedOutputSignature": "475cecf4008e738091be2bff6a04b093e92eeb86b331a66e8ba92426649fb417"
+        },
+        {
+          "InputFile": "input012.in",
+          "ExpectedOutputFile": "sort012.out",
+          "ExpectedOutputSignature": "e5196a34a460b173652da66c5e78b7ac81c270d6155639334bc1d459059296ca"
+        },
+        {
+          "InputFile": "input013.in",
+          "ExpectedOutputFile": "sort013.out",
+          "ExpectedOutputSignature": "84891008c350bec4d4eb586cb47626c4e6a130e0e227d1f542f8411f64e04ac5"
+        },
+        {
+          "InputFile": "input014.in",
+          "ExpectedOutputFile": "sort014.out",
+          "ExpectedOutputSignature": "9f3c39c8fa21b164c8db328c7e06a508a5d7dc65c1937948012ebe61eb40bed1"
+        },
+        {
+          "InputFile": "input015.in",
+          "ExpectedOutputFile": "sort015.out",
+          "ExpectedOutputSignature": "50ca0e80d50008cf959e1e9d72d9d0170c0214f032fb93efa9276b3f1be03109"
+        },
+        {
+          "InputFile": "input016.in",
+          "ExpectedOutputFile": "sort016.out",
+          "ExpectedOutputSignature": "230fb8b716e3f9b45bfb2d5354dac413040d5ce73ac834085ea30a9998c37787"
+        },
+        {
+          "InputFile": "input017.in",
+          "ExpectedOutputFile": "sort017.out",
+          "ExpectedOutputSignature": "11701777699e2f7b2e6e6ee33e1dca6814e57f7717f41aede579a5ab13e11bc3"
+        },
+        {
+          "InputFile": "input018.in",
+          "ExpectedOutputFile": "sort018.out",
+          "ExpectedOutputSignature": "cee2b00953f9172e44e9ac3366d86ea61646a323498a98932fc513c00db2c926"
+        },
+        {
+          "InputFile": "input019.in",
+          "ExpectedOutputFile": "sort019.out",
+          "ExpectedOutputSignature": "84cfe90d4e817a5aa23e5754902c3925a76001aaca24f1b109fc912d416f4937"
+        },
+        {
+          "InputFile": "input020.in",
+          "ExpectedOutputFile": "sort020.out",
+          "ExpectedOutputSignature": "5d26d9c09de9b0f94ea61a95d09590f679b5bceeeb379ec9610640fbb71a4c19"
+        },
+        {
+          "InputFile": "input021.in",
+          "ExpectedOutputFile": "sort021.out",
+          "ExpectedOutputSignature": "2b40adf4df02fa32b80e237aee3248729eadec611779c5d8a9bdaad2bfc1b00d"
+        },
+        {
+          "InputFile": "input022.in",
+          "ExpectedOutputFile": "sort022.out",
+          "ExpectedOutputSignature": "3450af9a1626717ebd6d681d2cc539f81a1750bd8b6aafc2b4f15a310f02d0c0"
+        },
+        {
+          "InputFile": "input023.in",
+          "ExpectedOutputFile": "sort023.out",
+          "ExpectedOutputSignature": "f44629b6dff35f7efd5c8f4b0a4beea614832229ecac95a9e1bb6aa37f9e1453"
+        },
+        {
+          "InputFile": "input024.in",
+          "ExpectedOutputFile": "sort024.out",
+          "ExpectedOutputSignature": "c58f6ec939526db9011d657b642396dfda8915fba248db468e6df4f649797988"
+        },
+        {
+          "InputFile": "input025.in",
+          "ExpectedOutputFile": "sort025.out",
+          "ExpectedOutputSignature": "d94d39e3880dbaae88e0d33b308cd435a0a12a75463035942e6da16f632a44d5"
+        }
+      ]
     }
   ]
 }
