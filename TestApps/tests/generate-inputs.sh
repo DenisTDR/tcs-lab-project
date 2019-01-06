@@ -9,7 +9,7 @@ do
     do
         line=${line}\ $RANDOM
     done
-    file=`printf input%03d.in ${i}`
+    file=`printf test%03d.in ${i}`
     echo writing ${nr} random numbers: ${file}
     echo ${line} > ${file}
 done
