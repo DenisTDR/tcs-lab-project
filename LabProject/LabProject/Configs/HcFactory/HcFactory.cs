@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Data.SqlTypes;
 using System.IO;
 using LabProject.Hashing;
 

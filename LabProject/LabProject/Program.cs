@@ -1,7 +1,5 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using LabProject.Configs.HcFactory;
-using LabProject.Hashing;
 using Newtonsoft.Json;
 
 namespace LabProject
