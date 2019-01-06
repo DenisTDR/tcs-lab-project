@@ -2,265 +2,265 @@
   "Programs": [
     {
       "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
-      "Arguments": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\build\\SumApp.dll",
-      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\tests",
+      "Arguments": "../../TestApps/build/SumApp.dll",
+      "WorkingDirectory": "../../TestApps/tests",
       "Tests": [
         {
-          "InputFile": "input001.in",
-          "ExpectedOutputFile": "sum001.out",
-          "ExpectedOutputSignature": "e6b8438860cb6d8b42d85352ff552753090f4493702fe7ea9fb924bc348cb0a5"
+          "InputFile": "../../TestApps/tests\\test-001.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-001.out",
+          "ExpectedOutputSignature": "9dfd60173abfca9c37665a00ee6fc5dcce0ea7a6d07cc41b4e5f3a65d805e8ac"
         },
         {
-          "InputFile": "input002.in",
-          "ExpectedOutputFile": "sum002.out",
-          "ExpectedOutputSignature": "8c1d3453298d6daeeddea682cd78fe5265f8cb47d440d4c7cf3257588567de0f"
+          "InputFile": "../../TestApps/tests\\test-002.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-002.out",
+          "ExpectedOutputSignature": "a12c9ed7a5c40e1fcf0b314fb7a31b591e5a823b381c384b98430d18343a54b0"
         },
         {
-          "InputFile": "input003.in",
-          "ExpectedOutputFile": "sum003.out",
-          "ExpectedOutputSignature": "af65f79ab51e977bcb8245bf95551bebd4b43a2680f2e091bdcc8b7b5bd5f617"
+          "InputFile": "../../TestApps/tests\\test-003.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-003.out",
+          "ExpectedOutputSignature": "ae670b06b85a238faac8f3edf76e8f8ea0ed7f8dd36dd19bacc1b3801a4444ce"
         },
         {
-          "InputFile": "input004.in",
-          "ExpectedOutputFile": "sum004.out",
-          "ExpectedOutputSignature": "38434a53130ee265fa117dd4c4065409b77fc3d1c6e7c68d9e321d47b22528aa"
+          "InputFile": "../../TestApps/tests\\test-004.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-004.out",
+          "ExpectedOutputSignature": "d24c2fdf579b897215251c1b0d6dde264288bfea949da68b9758d8b0d6f04b67"
         },
         {
-          "InputFile": "input005.in",
-          "ExpectedOutputFile": "sum005.out",
-          "ExpectedOutputSignature": "91242289722918f89edb23a64578dd2a759ecb9dac40c449bca1f2067eaba20f"
+          "InputFile": "../../TestApps/tests\\test-005.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-005.out",
+          "ExpectedOutputSignature": "eb690f758112e495164f2527957d2e4fe559ab5cc942daf74094e6a2757acec1"
         },
         {
-          "InputFile": "input006.in",
-          "ExpectedOutputFile": "sum006.out",
-          "ExpectedOutputSignature": "2f89cd880d45912fe1c009ca568d5aadecb0450308ae99f7e48678cff0d01c88"
+          "InputFile": "../../TestApps/tests\\test-006.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-006.out",
+          "ExpectedOutputSignature": "f84ede76026e96f5f87f0c21caa718a5a8f6dc48b93269147c5d0a6f0d258de6"
         },
         {
-          "InputFile": "input007.in",
-          "ExpectedOutputFile": "sum007.out",
-          "ExpectedOutputSignature": "ad56d8b5b61ebfa1437b94ad4614bbf92e3197f4f0b8725e54c21c161761bb61"
+          "InputFile": "../../TestApps/tests\\test-007.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-007.out",
+          "ExpectedOutputSignature": "6de42f7f8bf923a01e33bf572185c617f2eb6b0000e3c0714d5ec87e49fb2fc5"
         },
         {
-          "InputFile": "input008.in",
-          "ExpectedOutputFile": "sum008.out",
-          "ExpectedOutputSignature": "0d628b2f40ba9e552c0ed59fb7ae18599165f744f56543746caa6623c981511d"
+          "InputFile": "../../TestApps/tests\\test-008.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-008.out",
+          "ExpectedOutputSignature": "e1c528800409ca65849ac4b6bee0ec77a0007c3ecef946d09daaebe558b53f1f"
         },
         {
-          "InputFile": "input009.in",
-          "ExpectedOutputFile": "sum009.out",
-          "ExpectedOutputSignature": "abdda8f14088272744300c3e83a2b7bc2cc3ee401ec5a40afdb4411099ea25cc"
+          "InputFile": "../../TestApps/tests\\test-009.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-009.out",
+          "ExpectedOutputSignature": "9f7650863ef6b45bd4a4a04f6a958e07d001d8e63438e5bad4bbfacb130a41c1"
         },
         {
-          "InputFile": "input010.in",
-          "ExpectedOutputFile": "sum010.out",
-          "ExpectedOutputSignature": "0aa77416b8214afa6e94b52d5cad218b0e7c9ae23c80b1701b776c8bb0927992"
+          "InputFile": "../../TestApps/tests\\test-010.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-010.out",
+          "ExpectedOutputSignature": "14b85491ad43a63fe630311c4952122b977244b46d0b66ff38e02532f638b37f"
         },
         {
-          "InputFile": "input011.in",
-          "ExpectedOutputFile": "sum011.out",
-          "ExpectedOutputSignature": "9c2d1329fffeea6b81503c61d3b8b5eea2d0dd33fa477f840b7f301804ab1e14"
+          "InputFile": "../../TestApps/tests\\test-011.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-011.out",
+          "ExpectedOutputSignature": "38584c6122af968269720598452f3e122d079e99b5a36e9ce6b527df34cd1935"
         },
         {
-          "InputFile": "input012.in",
-          "ExpectedOutputFile": "sum012.out",
-          "ExpectedOutputSignature": "02e566f8edd2b08aed6394dad29b802eacd495a639cda4c0b0e82bf356ba53c3"
+          "InputFile": "../../TestApps/tests\\test-012.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-012.out",
+          "ExpectedOutputSignature": "6df73e41173b1c5d2bc5d948700168aced549009fdbb95ad719d2698c23aa708"
         },
         {
-          "InputFile": "input013.in",
-          "ExpectedOutputFile": "sum013.out",
-          "ExpectedOutputSignature": "19faa56a59ce12c033a5eef9508c40f858dd3c71055aaa47a501d1c9d4ecfe62"
+          "InputFile": "../../TestApps/tests\\test-013.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-013.out",
+          "ExpectedOutputSignature": "8b9163491dcb5799cb5ee8849e232716ba529d6f9fb9ef653b49b0e89a89e9d9"
         },
         {
-          "InputFile": "input014.in",
-          "ExpectedOutputFile": "sum014.out",
-          "ExpectedOutputSignature": "888411dc4af9f857606078882884b65287653730f0f7956f3ab5691ee2c9fe09"
+          "InputFile": "../../TestApps/tests\\test-014.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-014.out",
+          "ExpectedOutputSignature": "24d7ff8c1c44ff37fea9baeecd51ba42e5c680e40378bcbf49b8fc1eecca2879"
         },
         {
-          "InputFile": "input015.in",
-          "ExpectedOutputFile": "sum015.out",
-          "ExpectedOutputSignature": "9a238ed39ce5016e36eb7b487860c257986715cd2278eac5ee0d4b92538b380c"
+          "InputFile": "../../TestApps/tests\\test-015.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-015.out",
+          "ExpectedOutputSignature": "41ccee52f6e439d2cf61a54f53f66c205a87a9d10e5815f7a7f8a1a2abf06ce3"
         },
         {
-          "InputFile": "input016.in",
-          "ExpectedOutputFile": "sum016.out",
-          "ExpectedOutputSignature": "0e5e5d0cbdd688c17826147d59bd852a74fd39a9f280adb806c10e32ed2db60b"
+          "InputFile": "../../TestApps/tests\\test-016.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-016.out",
+          "ExpectedOutputSignature": "fafe382d63fcd951e41dfe4e757c7153f896499155c02fb72b283459e6a23796"
         },
         {
-          "InputFile": "input017.in",
-          "ExpectedOutputFile": "sum017.out",
-          "ExpectedOutputSignature": "82c49e179ee9c44ecd056be5ca505709c1af151fb1316221d4c91a0e81649484"
+          "InputFile": "../../TestApps/tests\\test-017.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-017.out",
+          "ExpectedOutputSignature": "63912880158dabeaf2a1d48767cceae0d3148e1fa948358085c01766ce438e17"
         },
         {
-          "InputFile": "input018.in",
-          "ExpectedOutputFile": "sum018.out",
-          "ExpectedOutputSignature": "ca5b4187dd8f99d5b58c592484adffa4cf0b1952e28c95bf2d1d927a2cb9e47b"
+          "InputFile": "../../TestApps/tests\\test-018.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-018.out",
+          "ExpectedOutputSignature": "b0de45d4c50d6647b157d3827217604444469a4c398ebae0e488a1118374bb8e"
         },
         {
-          "InputFile": "input019.in",
-          "ExpectedOutputFile": "sum019.out",
-          "ExpectedOutputSignature": "47c4250e8206b8d8443c6111ad4134dbc28f709d5715b95bd070451f30bc5983"
+          "InputFile": "../../TestApps/tests\\test-019.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-019.out",
+          "ExpectedOutputSignature": "2b9bf31c6e92c2f826d875eada04d0f2daaf31a626b7fe2e285c4702f2ff0fac"
         },
         {
-          "InputFile": "input020.in",
-          "ExpectedOutputFile": "sum020.out",
-          "ExpectedOutputSignature": "5b8c7a652aa18446433fec8031af8cc256c9f23ddd03b4eae951965b4593cddb"
+          "InputFile": "../../TestApps/tests\\test-020.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-020.out",
+          "ExpectedOutputSignature": "4599789aad85578712c038531637b7f045cd9f28011ca8ba2e2cfc5342ce17a3"
         },
         {
-          "InputFile": "input021.in",
-          "ExpectedOutputFile": "sum021.out",
-          "ExpectedOutputSignature": "a788456f0dc0abba39726679ac8ccad9751fe5d267bbdf1282f878d5dd5c09e8"
+          "InputFile": "../../TestApps/tests\\test-021.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-021.out",
+          "ExpectedOutputSignature": "b62915befc4982008ecc54bfca72510e7994b9c754be22c441c5eccf5dbd1736"
         },
         {
-          "InputFile": "input022.in",
-          "ExpectedOutputFile": "sum022.out",
-          "ExpectedOutputSignature": "04b3478542e96ba1894d1759743e5c42f29e078c55ea542ba94148621229346e"
+          "InputFile": "../../TestApps/tests\\test-022.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-022.out",
+          "ExpectedOutputSignature": "45e770e5c6299cbd5f2ac590a99f4b7a170f433c4788a9fdcc837416df7f7b51"
         },
         {
-          "InputFile": "input023.in",
-          "ExpectedOutputFile": "sum023.out",
-          "ExpectedOutputSignature": "0c8813f0b592fecfbbe4ee14e9275232d067dfc01389693c26c8d76ba440d790"
+          "InputFile": "../../TestApps/tests\\test-023.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-023.out",
+          "ExpectedOutputSignature": "bdd316f731ebaf92e4b5da6e82424cdd70e759a33a817d8e32b30e4066ae079a"
         },
         {
-          "InputFile": "input024.in",
-          "ExpectedOutputFile": "sum024.out",
-          "ExpectedOutputSignature": "5cb86872c07c5ec3b3c3ddd7413f74c2f9376c8008c8903eeeb440e23183253a"
+          "InputFile": "../../TestApps/tests\\test-024.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-024.out",
+          "ExpectedOutputSignature": "ba186b19b7cee1e3601ab552eca525151ad6e89463f9bc8a11824f0ebfd80b66"
         },
         {
-          "InputFile": "input025.in",
-          "ExpectedOutputFile": "sum025.out",
-          "ExpectedOutputSignature": "433f95e1af890d43cb813135ffcc517e08e35c9d5727136895997386936c63be"
+          "InputFile": "../../TestApps/tests\\test-025.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sum-025.out",
+          "ExpectedOutputSignature": "82a0f120fe6e3a6a5d0257391e73b24da11c0949595fd269d34ada8b7788e843"
         }
       ]
     },
     {
       "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
-      "Arguments": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\build\\SortApp.dll",
-      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\tests",
+      "Arguments": "../../TestApps/build/SortApp.dll",
+      "WorkingDirectory": "../../TestApps/tests",
       "Tests": [
         {
-          "InputFile": "input001.in",
-          "ExpectedOutputFile": "sort001.out",
-          "ExpectedOutputSignature": "957893148a6a88c4ba2baa398a2a0d82110d17f06e352122f64c2b57d45ead19"
+          "InputFile": "../../TestApps/tests\\test-001.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-001.out",
+          "ExpectedOutputSignature": "feca2fe6b94430e2891a1eb3f7593aa6273276a8482da112320f0aa4782dcd7d"
         },
         {
-          "InputFile": "input002.in",
-          "ExpectedOutputFile": "sort002.out",
-          "ExpectedOutputSignature": "000e13e5cb8b73627fb1b7a3892abf8e98ee7b79a292891785e4c38e439f0d9b"
+          "InputFile": "../../TestApps/tests\\test-002.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-002.out",
+          "ExpectedOutputSignature": "f03b73f5103e420cb0795c1b8eb9eaa005142b435835c99029aff754ea107ec1"
         },
         {
-          "InputFile": "input003.in",
-          "ExpectedOutputFile": "sort003.out",
-          "ExpectedOutputSignature": "7e0ddd173bed1489be3b10840cdbedcdcafb05e16a9347c902521493d58a956d"
+          "InputFile": "../../TestApps/tests\\test-003.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-003.out",
+          "ExpectedOutputSignature": "64947daabdcdf49b5c6ca117963f7ab0b3418ec50406dd36bf6083f336cd152b"
         },
         {
-          "InputFile": "input004.in",
-          "ExpectedOutputFile": "sort004.out",
-          "ExpectedOutputSignature": "e8b088e25c5217006b0202883a1f41b585bcf7564137b253a36d62884ef5b605"
+          "InputFile": "../../TestApps/tests\\test-004.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-004.out",
+          "ExpectedOutputSignature": "dd35c9481d1e0e7799b6dc3d6538755acbf79a1322ee5bd1354268d3fc248baf"
         },
         {
-          "InputFile": "input005.in",
-          "ExpectedOutputFile": "sort005.out",
-          "ExpectedOutputSignature": "4e79209be25b5e2eca754287d4a53ec7cb29ba469d2e3083fe47bd4d533eaa3d"
+          "InputFile": "../../TestApps/tests\\test-005.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-005.out",
+          "ExpectedOutputSignature": "353b811e89375a7385075421e6ca486a32118188a1aa72e688fdc57f8068c484"
         },
         {
-          "InputFile": "input006.in",
-          "ExpectedOutputFile": "sort006.out",
-          "ExpectedOutputSignature": "2849e7b85c6078e5db801bd63ca448f57ac0d6a7801032e820a7b3c7621c4c71"
+          "InputFile": "../../TestApps/tests\\test-006.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-006.out",
+          "ExpectedOutputSignature": "cec93d9f4dca0ff5165d1711d19d0e92f9a45a5df4c71b0fd3255a9df2882db1"
         },
         {
-          "InputFile": "input007.in",
-          "ExpectedOutputFile": "sort007.out",
-          "ExpectedOutputSignature": "f2ba1e802cd27d4ae6b2068d1d24691f55af674263c9ce7b583ae55ef6a440a4"
+          "InputFile": "../../TestApps/tests\\test-007.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-007.out",
+          "ExpectedOutputSignature": "21586e337b1c4ac648812f903bea3866cfc1440b222a9c352d85a42754bf99c0"
         },
         {
-          "InputFile": "input008.in",
-          "ExpectedOutputFile": "sort008.out",
-          "ExpectedOutputSignature": "c2b1166abf6f22216de17dcfb1ad78432300bff8f8590d8e73f97cb897ffb10a"
+          "InputFile": "../../TestApps/tests\\test-008.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-008.out",
+          "ExpectedOutputSignature": "8ce9094f6f0ec19c33c046786c9cec396462645f9d02427f091d77c6320bb3dc"
         },
         {
-          "InputFile": "input009.in",
-          "ExpectedOutputFile": "sort009.out",
-          "ExpectedOutputSignature": "b6a532c104ab97568c0984e6898e4508e89c33616511340ea64a5743cfad443d"
+          "InputFile": "../../TestApps/tests\\test-009.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-009.out",
+          "ExpectedOutputSignature": "522ca5a9b7b043b092015eab10d2540f3e87065d78dbf3a7f3eaa5b105f94941"
         },
         {
-          "InputFile": "input010.in",
-          "ExpectedOutputFile": "sort010.out",
-          "ExpectedOutputSignature": "58c3cb809bc497ef4feddb5499693444c4e9c454e22d990eb7ed3832e5e74373"
+          "InputFile": "../../TestApps/tests\\test-010.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-010.out",
+          "ExpectedOutputSignature": "c5a164321fa00ac6575a5b97eb35c79b775874396318dbc3885f621a400abc08"
         },
         {
-          "InputFile": "input011.in",
-          "ExpectedOutputFile": "sort011.out",
-          "ExpectedOutputSignature": "475cecf4008e738091be2bff6a04b093e92eeb86b331a66e8ba92426649fb417"
+          "InputFile": "../../TestApps/tests\\test-011.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-011.out",
+          "ExpectedOutputSignature": "ca69370d23644443613d29b9106dff86afa1f9d65deaf2b9181fa21096346cc0"
         },
         {
-          "InputFile": "input012.in",
-          "ExpectedOutputFile": "sort012.out",
-          "ExpectedOutputSignature": "e5196a34a460b173652da66c5e78b7ac81c270d6155639334bc1d459059296ca"
+          "InputFile": "../../TestApps/tests\\test-012.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-012.out",
+          "ExpectedOutputSignature": "5f7666f9673702d409f9e236589c67aefe9a6c2bd2241b52a227d4dd12340ef7"
         },
         {
-          "InputFile": "input013.in",
-          "ExpectedOutputFile": "sort013.out",
-          "ExpectedOutputSignature": "84891008c350bec4d4eb586cb47626c4e6a130e0e227d1f542f8411f64e04ac5"
+          "InputFile": "../../TestApps/tests\\test-013.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-013.out",
+          "ExpectedOutputSignature": "7ae0554cf5d5b8ba1950f9785655b29a4d846016cb1637abbcc3b0f08a997ca7"
         },
         {
-          "InputFile": "input014.in",
-          "ExpectedOutputFile": "sort014.out",
-          "ExpectedOutputSignature": "9f3c39c8fa21b164c8db328c7e06a508a5d7dc65c1937948012ebe61eb40bed1"
+          "InputFile": "../../TestApps/tests\\test-014.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-014.out",
+          "ExpectedOutputSignature": "ef863ed05c865fe20373f1926d0110b7672035dcfd49795cdca67595d78ea8eb"
         },
         {
-          "InputFile": "input015.in",
-          "ExpectedOutputFile": "sort015.out",
-          "ExpectedOutputSignature": "50ca0e80d50008cf959e1e9d72d9d0170c0214f032fb93efa9276b3f1be03109"
+          "InputFile": "../../TestApps/tests\\test-015.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-015.out",
+          "ExpectedOutputSignature": "d7db367b511dc1443c6941eda81caec521ba0c51b4038fbd4ceb015a56e615f0"
         },
         {
-          "InputFile": "input016.in",
-          "ExpectedOutputFile": "sort016.out",
-          "ExpectedOutputSignature": "230fb8b716e3f9b45bfb2d5354dac413040d5ce73ac834085ea30a9998c37787"
+          "InputFile": "../../TestApps/tests\\test-016.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-016.out",
+          "ExpectedOutputSignature": "9195ac013127875619c6b53085111ce64c02cf6fb3e8b9552312e861c5fcc9ae"
         },
         {
-          "InputFile": "input017.in",
-          "ExpectedOutputFile": "sort017.out",
-          "ExpectedOutputSignature": "11701777699e2f7b2e6e6ee33e1dca6814e57f7717f41aede579a5ab13e11bc3"
+          "InputFile": "../../TestApps/tests\\test-017.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-017.out",
+          "ExpectedOutputSignature": "804c3ecd01aa75062eb7f14aa4bb449da4122858fd1df2a1124563589a41de91"
         },
         {
-          "InputFile": "input018.in",
-          "ExpectedOutputFile": "sort018.out",
-          "ExpectedOutputSignature": "cee2b00953f9172e44e9ac3366d86ea61646a323498a98932fc513c00db2c926"
+          "InputFile": "../../TestApps/tests\\test-018.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-018.out",
+          "ExpectedOutputSignature": "9ae17aefc756e50851c1de7e6fe86788d2f73c2661076c26eb5661bbced2b7b7"
         },
         {
-          "InputFile": "input019.in",
-          "ExpectedOutputFile": "sort019.out",
-          "ExpectedOutputSignature": "84cfe90d4e817a5aa23e5754902c3925a76001aaca24f1b109fc912d416f4937"
+          "InputFile": "../../TestApps/tests\\test-019.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-019.out",
+          "ExpectedOutputSignature": "c480cb0814d93da84ad12d020a821c6b73c045fcb1c4ea9b556ecedd493f5afd"
         },
         {
-          "InputFile": "input020.in",
-          "ExpectedOutputFile": "sort020.out",
-          "ExpectedOutputSignature": "5d26d9c09de9b0f94ea61a95d09590f679b5bceeeb379ec9610640fbb71a4c19"
+          "InputFile": "../../TestApps/tests\\test-020.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-020.out",
+          "ExpectedOutputSignature": "f71b08eda877f268ca8c84a9f6052daec155adf8c9c2bd7302ebb46b91528675"
         },
         {
-          "InputFile": "input021.in",
-          "ExpectedOutputFile": "sort021.out",
-          "ExpectedOutputSignature": "2b40adf4df02fa32b80e237aee3248729eadec611779c5d8a9bdaad2bfc1b00d"
+          "InputFile": "../../TestApps/tests\\test-021.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-021.out",
+          "ExpectedOutputSignature": "c63c1b5fb294fd204d76b2f4c11adff196a98b18d61cf173a93837d56779b8f2"
         },
         {
-          "InputFile": "input022.in",
-          "ExpectedOutputFile": "sort022.out",
-          "ExpectedOutputSignature": "3450af9a1626717ebd6d681d2cc539f81a1750bd8b6aafc2b4f15a310f02d0c0"
+          "InputFile": "../../TestApps/tests\\test-022.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-022.out",
+          "ExpectedOutputSignature": "e87cefd23a20c845df5111b01c211e9604a650f0680ba07e3a268ec8a47e12ed"
         },
         {
-          "InputFile": "input023.in",
-          "ExpectedOutputFile": "sort023.out",
-          "ExpectedOutputSignature": "f44629b6dff35f7efd5c8f4b0a4beea614832229ecac95a9e1bb6aa37f9e1453"
+          "InputFile": "../../TestApps/tests\\test-023.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-023.out",
+          "ExpectedOutputSignature": "44ebeb24350198781515113275b795a57a11a0c91ec5e256756299bac6a94cc4"
         },
         {
-          "InputFile": "input024.in",
-          "ExpectedOutputFile": "sort024.out",
-          "ExpectedOutputSignature": "c58f6ec939526db9011d657b642396dfda8915fba248db468e6df4f649797988"
+          "InputFile": "../../TestApps/tests\\test-024.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-024.out",
+          "ExpectedOutputSignature": "161375d2dd87dc3b9055e6a0e2a1d394bb4ade85d14129545aeb7b816773e8a9"
         },
         {
-          "InputFile": "input025.in",
-          "ExpectedOutputFile": "sort025.out",
-          "ExpectedOutputSignature": "d94d39e3880dbaae88e0d33b308cd435a0a12a75463035942e6da16f632a44d5"
+          "InputFile": "../../TestApps/tests\\test-025.in",
+          "ExpectedOutputFile": "../../TestApps/tests\\sort-025.out",
+          "ExpectedOutputSignature": "6146f8cde2032dd1c9a4e0a9d32b1775e1c97f3ef70219a1114614900b5a9c8b"
         }
       ]
     }
