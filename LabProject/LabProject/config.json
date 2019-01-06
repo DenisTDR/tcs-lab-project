@@ -1,0 +1,16 @@
+{
+  "Programs": [
+    {
+      "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "Arguments": "run",
+      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\SumApp",
+      "Tests": null
+    },
+    {
+      "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "Arguments": "run",
+      "WorkingDirectory": "D:\\Projects\\UPT\\master\\tcs\\lab\\TestApps\\SortApp",
+      "Tests": null
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+cd LabProject && call run.bat
