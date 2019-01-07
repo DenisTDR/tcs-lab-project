@@ -13,7 +13,7 @@ namespace LabProject.Configs.HcFactory
             var cm = new ConfigModel {Programs = new List<ProgramModel>()};
             var pm1 = new ProgramModel
             {
-                ExecutablePath = @"C:\Program Files\dotnet\dotnet.exe",
+                ExecutablePath = "dotnet",
                 Arguments = @"../../TestApps/build/SumApp.dll",
                 WorkingDirectory = testsDirectory,
                 Tests = new List<TestModel>()
@@ -24,7 +24,7 @@ namespace LabProject.Configs.HcFactory
 
             var pm2 = new ProgramModel
             {
-                ExecutablePath = @"C:\Program Files\dotnet\dotnet.exe",
+                ExecutablePath = "dotnet",
                 Arguments = @"../../TestApps/build/SortApp.dll",
                 WorkingDirectory = testsDirectory,
                 Tests = new List<TestModel>()

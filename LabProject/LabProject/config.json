@@ -1,7 +1,7 @@
 {
   "Programs": [
     {
-      "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "ExecutablePath": "dotnet",
       "Arguments": "../../TestApps/build/SumApp.dll",
       "WorkingDirectory": "../../TestApps/tests",
       "Tests": [
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "ExecutablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "ExecutablePath": "dotnet",
       "Arguments": "../../TestApps/build/SortApp.dll",
       "WorkingDirectory": "../../TestApps/tests",
       "Tests": [
@@ -261,6 +261,12 @@
           "InputFile": "../../TestApps/tests\\test-025.in",
           "ExpectedOutputFile": "../../TestApps/tests\\sort-025.out",
           "ExpectedOutputSignature": "6146f8cde2032dd1c9a4e0a9d32b1775e1c97f3ef70219a1114614900b5a9c8b"
+        }
+      ]
+    }
+  ]
+}
+f70219a1114614900b5a9c8b"
         }
       ]
     }

@@ -15,9 +15,9 @@ namespace LabProject
         {
             var cm = HcFactory.BuildHardcodedModel();
             HcFactory.ComputeOutputHashes(cm);
-            using (var sw = new StreamWriter(new FileStream("config.json", FileMode.OpenOrCreate)))
+            using (var sw = new StreamWriter(new FileStream("config.json", FileMode.Create)))
             {
-                sw.WriteLine(JsonConvert.SerializeObject(cm));
+                sw.WriteLine(JsonConvert.SerializeObject(cm, Formatting.Indented));
             }
         }
     }
