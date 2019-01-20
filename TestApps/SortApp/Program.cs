@@ -21,6 +21,12 @@ namespace SortApp
             }
 
             numbers.Sort();
+            
+            if (args != null && args.Contains("wrong"))
+            {
+                numbers.Reverse();
+            }
+
             Console.WriteLine(string.Join(" ", numbers));
         }
     }

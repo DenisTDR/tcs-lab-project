@@ -20,6 +20,11 @@ namespace SumApp
                 sum += numbers.Sum();
             }
 
+            if (args != null && args.Contains("wrong"))
+            {
+                sum -= 1;
+            }
+
             Console.WriteLine(sum);
         }
     }

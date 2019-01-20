@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using LabProject.Configs;
 using LabProject.Configs.HcFactory;
+using LabProject.Hashing;
 using LabProject.Runner;
 using Newtonsoft.Json;
 
@@ -13,7 +15,7 @@ namespace LabProject
         {
 //            WriteHcConfig();
             ConfigModel config = ConfigReader.Read();
-            ConfigRunner.Run(config);
+            ConfigRunner.Run(config, true);
         }
 
         static void WriteHcConfig()

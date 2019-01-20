@@ -18,7 +18,7 @@ namespace LabProject.Hashing
                     sb.Append(hashByte.ToString("x2"));
                 }
 
-                return sb.ToString();
+                return sb.ToString().Substring(0, 1);
             }
         }
     }

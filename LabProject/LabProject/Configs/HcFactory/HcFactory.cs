@@ -31,9 +31,11 @@ namespace LabProject.Configs.HcFactory
             };
 
             cm.Programs.Add(pm2);
-
+//            int c = 0;
             foreach (var file in Directory.GetFiles(testsDirectory).Where(file => file.Contains("test-")))
             {
+//                c++;
+//                if (c > 10) break;
                 pm1.Tests.Add(new TestModel(file, file.Replace("test-", "sum-").Replace(".in", ".out")));
                 pm2.Tests.Add(new TestModel(file, file.Replace("test-", "sort-").Replace(".in", ".out")));
             }
@@ -48,7 +50,7 @@ namespace LabProject.Configs.HcFactory
                 foreach (var test in program.Tests)
                 {
                     var outputFile = Path.Combine(program.WorkingDirectory, test.ExpectedOutputFile);
-                    var content = new StreamReader(new FileStream(outputFile, FileMode.Open)).ReadToEnd();
+                    var content = new StreamReader(new FileStream(outputFile, FileMode.Open)).ReadToEnd().Trim();
                     var hash = HashHelper.ComputeHash(content);
                     test.ExpectedOutputSignature = hash;
                 }

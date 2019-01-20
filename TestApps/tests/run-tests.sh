@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in `seq 25`
+for i in `seq 100`
 do
     input=`printf test-%03d.in ${i}`
     sum=`printf sum-%03d.out ${i}`

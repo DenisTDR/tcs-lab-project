@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-for i in `seq 25`
+for i in `seq 100`
 do
-    nr=`shuf -i 500-10000 -n 1`
+    nr=`shuf -i 100-1000 -n 1`
     line=
     for j in `seq ${nr}`
     do
