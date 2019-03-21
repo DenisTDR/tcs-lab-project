@@ -10,7 +10,7 @@ namespace LabProject.Runner
 {
     public class TestRunner
     {
-        public static void Run(ProgramModel program, TestModel test, bool? showOnly)
+        public static bool Run(ProgramModel program, TestModel test, bool? showOnly)
         {
             var startInfo = new ProcessStartInfo
             {
@@ -38,17 +38,48 @@ namespace LabProject.Runner
 
             var outputHash = HashHelper.ComputeHash(output);
 
-            var result = outputHash == test.ExpectedOutputSignature;
-            if (showOnly == null || showOnly == true && result || showOnly == false && !result)
+            var signatureMatch = outputHash == test.ExpectedOutputSignature;
+
+            var expectedOutput = "";
+            
+            using (var r = new StreamReader(test.ExpectedOutputFile))
             {
-                Console.Write("running test {0} for {1}", Path.GetFileName(test.InputFile),
-                    Path.GetFileName(program.Arguments.Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                        .FirstOrDefault()));
-                Console.Write("  hash:" + outputHash);
-                Console.WriteLine("   result: " + (outputHash == test.ExpectedOutputSignature));
+                expectedOutput = r.ReadToEnd();
+                expectedOutput = expectedOutput.Trim();
+            }
+
+            var outputMatch = output == expectedOutput;
+            
+            if (showOnly == null || showOnly == true && signatureMatch || showOnly == false && !signatureMatch)
+            {
+//                Console.Write("running test {0} for {1}", Path.GetFileName(test.InputFile),
+//                    Path.GetFileName(program.Arguments.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+//                        .FirstOrDefault()));
+//                Console.Write("  hash:" + outputHash);
+//                Console.Write("  output match:" + outputMatch);
+//                Console.WriteLine("   result: " + (outputHash == test.ExpectedOutputSignature));
+
 //                Console.WriteLine(output);
 //                Console.WriteLine("outputHash=" + outputHash + "   ExpectedOutputHash=" + test.ExpectedOutputSignature);
             }
+            
+            if (!signatureMatch && outputMatch)
+            {
+                throw new Exception("shouldn't happen");
+            }
+            
+            if (signatureMatch && !outputMatch)
+            {
+//                Console.WriteLine(expectedOutput);
+//                Console.WriteLine(output);
+//                
+//                Console.WriteLine(test.ExpectedOutputSignature);
+//                Console.WriteLine(outputHash);
+
+                return false;
+            }
+
+            return true;
         }
     }
 }

@@ -15,7 +15,7 @@ namespace LabProject
         {
 //            WriteHcConfig();
             ConfigModel config = ConfigReader.Read();
-            ConfigRunner.Run(config, true);
+            ConfigRunner.Run(config);
         }
 
         static void WriteHcConfig()

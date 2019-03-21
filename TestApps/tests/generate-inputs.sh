@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for i in `seq 100`
+for i in `seq 1000`
 do
     nr=`shuf -i 100-1000 -n 1`
     line=
